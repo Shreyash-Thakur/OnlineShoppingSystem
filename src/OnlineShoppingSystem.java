@@ -95,7 +95,7 @@ class Guest {
             cart.remove(productToRemove);
             System.out.println("Removed from cart: " + productToRemove);
         } else {
-            System.out.println("Product with the ID " + productId + " not found in your cart.");
+            System.out.println("Product with ID " + productId + " not found in your cart.");
         }
     }
 
